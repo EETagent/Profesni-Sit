@@ -1,0 +1,20 @@
+{
+  "name": "profesnisit",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*/"
+  ],
+  "packageManager": "pnpm@6.32.3",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "turbo": "^1.1.6",
+    "typescript": "^4.6.2"
+  }
+}

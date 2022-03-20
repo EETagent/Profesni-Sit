@@ -1,0 +1,29 @@
+{
+  "name": "@profesnisit/frontend",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+},
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "sass": "^1.49.9",
+    "svelte": "^3.46.4",
+    "svelte-check": "^2.4.6",
+    "svelte-preprocess": "^4.10.4",
+    "svelte-windicss-preprocess": "^4.2.6",
+    "tslib": "^2.3.1",
+    "typescript": "~4.6.2",
+    "windicss": "^3.5.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "cookie": "^0.4.2"
+  }
+}
